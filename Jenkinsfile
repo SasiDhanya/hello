@@ -4,7 +4,8 @@ agent any
     stage('hai')
     {
     steps{
-            echo 'sai deepthi';
+            echo 'Hallooooo World';
+      mail bcc: '', body: 'sssss', cc: '', from: '', replyTo: '', subject: 'abc', to: 'sasi.patra05@gmail.com'
     }
     }
   }
